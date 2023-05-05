@@ -1,2 +1,2 @@
 # react-todo
-A simple todo application in react
+A simple todo application in react.
