@@ -25,7 +25,6 @@ const TodoList = () => {
             </div>
 
             <div className={listComponent.length > 0 ? 'mt-10 bg-slate-800 p-4 w-1/2 m-auto mb-5' : ''}>
-
                 {listComponent.map((value, index) => (
                     <div key={index} className='bg-slate-600 text-white text-left pl-5 text-xl h-10 w-full m-auto font-poppins my-2 flex items-center justify-between'>
                         <h1>{value}</h1>

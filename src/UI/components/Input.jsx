@@ -8,7 +8,7 @@ const Input = (props) => {
     }
 
     const addListEvent = () => {
-        props.onGetListHandler(inputValue)
+        inputValue.trim() != '' ? props.onGetListHandler(inputValue) : ''
         setInputValue('')
     }
 
