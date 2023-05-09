@@ -1,2 +1,2 @@
 # react-todo
-A simple todo application in react.
+A simple todo list application using React and Tailwind.
